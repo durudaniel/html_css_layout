@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* COLOR VERSION: #087f5b
+GREY VERSION: 343a40s*/
+body {
+  font-family: serif;
+  border-bottom: 5px solid #087f5b;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+header,
+section {
+  margin-bottom: 48px;
+}
+h1 {
+  margin-bottom: 40px;
+}
+h2 {
+  margin-bottom: 48px;
+  font-size: 35px;
+  letter-spacing: -1px;
+}
+.header-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 90px;
+  margin-top: 50px;
+}
+.header-text-box {
+  align-self: center;
+}
+.grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+}
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  column-gap: 80px;
+}
+.testimonial-box {
+  align-self: center;
+  color: white;
+  font-size: 19px;
+}
+.testimonial-box h2 {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+.testimonial-text {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+}
+blockquote p {
+  color: yellow;
+  margin-top: 15px;
+  font-style: normal;
+}
+p {
+  line-height: 25px;
+  color: rgba(7, 7, 7, 0.786);
+}
+ul {
+  line-height: 38px;
+  margin-left: 18px;
+}
+.chair-box {
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+.chair-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.btn-small {
+  align-self: center;
+}
+.heading {
+  font-size: 44px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.img-title {
+  border-radius: 13px;
+}
+.testimonial-section {
+  background-color: #087f5b;
+  padding: 15px;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.btn {
+  padding: 8px 25px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  background-color: #087f5b;
+  color: white;
+  transition: opacity 0.15s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.btn:active {
+  cursor: progress;
+  opacity: 0.8;
+}
+.btn-small {
+  margin-left: 40px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+div strong {
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+figure {
+  box-shadow: 2px 2px 5px rgb(197, 186, 186);
+  border-radius: 14px;
+}
+.special {
+  font-size: 40px;
+}
+.feature-title {
+  font-size: 20px;
+}
+.feature-text {
+  font-size: 18px;
+  line-height: 1.5;
+}

@@ -76,16 +76,37 @@ p {
 }
 ul {
   line-height: 38px;
-  margin-left: 18px;
+  /*margin-left: 18px;*/
+  list-style: none;
+}
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .chair-box {
   margin-left: 30px;
-  padding-bottom: 20px;
+  padding: 24px;
 }
+
 .chair-title {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 22px;
+}
+.chair-detail {
+  list-style: none;
+  margin-bottom: 24px;
+}
+.chair-detail li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 .chair-price {
   display: flex;
@@ -143,14 +164,21 @@ div strong {
   position: relative;
 }
 figure {
-  box-shadow: 2px 2px 5px rgb(197, 186, 186);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.07);
   border-radius: 14px;
 }
 .special {
   font-size: 40px;
 }
+.features-icon {
+  stroke: #087f5b;
+  width: 27px;
+  height: 27px;
+  margin-left: 20px;
+}
 .feature-title {
   font-size: 20px;
+  margin-bottom: 16px;
 }
 .feature-text {
   font-size: 18px;

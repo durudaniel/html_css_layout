@@ -16,7 +16,7 @@ body {
 }
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 90px;
 }
 h1 {
   margin-bottom: 40px;
@@ -61,12 +61,13 @@ header {
   margin-bottom: 35px;
 }
 .testimonial-text {
+  color: #e6fcf5;
   font-style: italic;
   font-size: 18px;
   line-height: 1.5;
 }
 blockquote p {
-  color: yellow;
+  color: #63e6be;
   margin-top: 15px;
   font-style: normal;
 }
@@ -85,7 +86,7 @@ ul {
 }
 .chair-box {
   margin-left: 30px;
-  padding: 24px;
+  padding: 0;
 }
 
 .chair-title {
@@ -95,7 +96,7 @@ ul {
 }
 .chair-detail {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .chair-detail li {
   display: flex;
@@ -109,12 +110,15 @@ ul {
   margin-right: 10px;
 }
 .chair-price {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  align-content: flex-start;
+  */
   font-size: 20px;
+  margin-bottom: 40px;
 }
 .btn-small {
-  align-self: center;
+  margin-right: 10px;
+  display: inline;
 }
 .heading {
   font-size: 44px;
@@ -175,6 +179,7 @@ figure {
   width: 27px;
   height: 27px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 .feature-title {
   font-size: 20px;
